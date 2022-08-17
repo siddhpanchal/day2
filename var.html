@@ -1,0 +1,22 @@
+<html><head></head><body bgcolor="blue">
+
+    <h2>Redeclaring a Variable Using var</h2>
+    
+    <p id="demo">2</p>
+    
+    <script>
+    var  x = 25;
+    // Here x is 10
+    
+    {  
+    var x = 28;
+    // Here x is 2
+    }
+    
+    // Here x is 2
+    document.getElementById("demo").innerHTML = x;
+    </script>
+    
+    
+    
+    </body></html>
